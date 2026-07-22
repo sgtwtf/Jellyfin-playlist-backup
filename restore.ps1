@@ -1,6 +1,16 @@
+#########################################################
+#########################################################
+#########################################################
 $ApiKey = "XYZ987"
 $DestServer = "http://your-new-jellyfin-server:8096"
-$BackupFile = "D:\JellyfinPlaylists\user\favs.json"
+$BackupFile = "D:\JellyfinPlaylists\user1\favs.json"
+########################################################
+## The user from the soruce needs to match the destintation
+## if it does not, decare the destination user on line 27
+## etc $User = user1
+########################################################
+
+
 
 $Headers = @{
     "X-Emby-Token" = $ApiKey
